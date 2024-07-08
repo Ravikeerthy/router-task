@@ -7,7 +7,7 @@ const All = ({ articles }) => {
     <>
       <div className="container">
         <div className="row row-cols-1 row-cols-md-3 g-4">
-          {articles.map((item) => {
+          {articles.map((item) => {  // mapping the article according to the route
             return (
               <>
                 <Card key={item.id} item={item} />

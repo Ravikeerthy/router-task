@@ -4,6 +4,7 @@ import "./Style/FooterStyle.css";
 const Footer = () => {
   return (
     <div>
+      {/* Footer component */}
       <div className="footer">
         <div className="container">
           <div className="row">

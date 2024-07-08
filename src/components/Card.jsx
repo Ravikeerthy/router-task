@@ -4,6 +4,7 @@ import "./Style/CardContainer.css";
 const Card = ({ item }) => {
   return (
     <div>
+      {/* Card Displaying  Component */}
       <div className="col mb-3" id="card-design">
         <div className="card">
           <img src={item.articleImg} className="card-img-top img-thumbnail" alt="img" />
