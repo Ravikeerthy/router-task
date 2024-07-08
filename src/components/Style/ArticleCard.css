@@ -1,0 +1,49 @@
+#articleCard-design{
+    margin-top:8% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+h3{
+    display: flex;
+    justify-content: flex-start;
+}
+#articleCol-design{
+    width: 50%;
+
+}
+#articleimg-design{
+    width: 50%;
+}
+.article-card-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+.article-link-design{
+    text-decoration: none;
+    color: black;
+}
+#article-img-design{
+    height: 100%;
+}
+.side-footer-design{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    margin-top: 5px;
+}
+#padding-card{
+    padding: 20px;
+   
+}
+/* #align-design{
+     display: flex;
+    flex-direction: column;
+    align-content: space-between;
+} */
+#padding-card:hover{
+    box-shadow: 5px 5px 15px grey;
+}

@@ -1,0 +1,41 @@
+.image-design {
+    width: 65px;
+}
+
+#col-design {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+#input-design,
+#button-addon2 {
+    border-radius: 20px;
+}
+#button-addon2{
+    border: none;
+}
+h3,
+h5 {
+    margin: 10px;
+}
+
+#log-design {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    font-weight: bolder;
+    color: rgb(51, 188, 51);
+    font-size: x-large;
+    width: 100%;
+}
+
+#container-design {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #fff; 
+    /* padding: 10px 0; */
+    box-shadow: 5px 5px 15px rgb(171, 168, 168);
+}
